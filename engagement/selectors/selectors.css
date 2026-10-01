@@ -1,0 +1,20 @@
+p{
+    color: blue; 
+}
+header h1{
+    color: cadetblue
+}
+main p{color:rgb(red green blue / alpha)}
+#maintitle
+{color: burlywood;
+}
+
+
+
+.bigger {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+h2{color: red;
+}
