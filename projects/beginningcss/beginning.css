@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #2f3e46;
+    background-color: #f4f1ea;  
+}
+
+header {
+    background-color: #2f3e46;
+    color: white;
+    text-align: center;
+}
+#maintitle {
+    text-align: center;
+}
+.bigger {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: #b56576;
+    font-weight: bold 
+}
+
+.deemphasized {
+    color: #6c757d;
+}
+
+h2 {
+    color: #2f3e46;
+}
+
+footer {
+    background-color: #2f3246;
+    color: white;
+}
