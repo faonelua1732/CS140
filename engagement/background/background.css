@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('blue.jpg') repeat blue;
+    color: white
+}
+
+img {
+    width: 400px;
+}
+
+ul {
+    list-style-image: url("dont.png");
+}
+
+main {
+    background: url(redFlowerSmall.png) no-repeat center;
+}
+
+.pipeline {
+    width: 250px;
+}
+
+.other {
+    background-image: url(bluebg.jpg);
+}
