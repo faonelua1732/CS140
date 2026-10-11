@@ -1,0 +1,59 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    min-height: 430px;
+    margin: 20px auto;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #00ff26;
+    background-color: #173b20;
+    background-image: url("images/background2.jpg");
+    background-repeat: repeat;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    background-color: transparent;
+}
+
+h1 {
+    margin: 8px 0;
+    color: #00ff26;
+    font-size: 25px;
+}
+h2 {
+    margin: 8px 0;
+    color: #00ff26;
+    font-size: 18px;
+}
+
+nav a {
+    margin-right: 4px;
+    color: white;
+}
+
+nav a.current {
+    color: #00ff26;
+    font-weight: bold;
+}
+
+main a {
+    color: #00ff26;
+}
+
+.home-main {
+    padding-right: 190px;
+    background-image: url("images/laieflag.jpg");
+    background-repeat: no-repeat;
+    background-position: right 10px top 10px;
+}
+
+ul {
+    list-style-image: url("images/volley2.jpg");
+}
