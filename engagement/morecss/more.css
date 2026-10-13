@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    outline: thin solid red;
+}
+
+.p1 {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-top: 4px solid red;
+}
+
+.p2 {
+    margin: 20px;
+    padding: 30px;
+    border-width: 10px;
+    border-color: black;
+    border-style: dotted;
+}
+
+p3{
+    border: thin solid blacj;
+    padding: 50x 10;
+}
+
+.p3 {
+    border: thin solide black;
+    
+}
+
+
