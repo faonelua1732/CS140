@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.haamonga {
+    border: 2px solid blue;
+    border-width: 10px;
+    width: 200px;
+    overflow: hidden;
+    float: right;
+}
+
+#haamonga {
+    float: left;
+}
+
+.haamonga {
+    width: 200px;
+}
+
+.enforcer {
+    clear: both;
+}
