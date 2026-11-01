@@ -91,6 +91,10 @@ body {
 .card {
     break-inside: avoid;
 }
+
+.card-container {
+    display: block;
+}
 }
 
 
