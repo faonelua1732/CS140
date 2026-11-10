@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Lua's Web Design Site</h1>
+    </header>
+    <main>
+        <form action="formprocessing.html" method="get">
+            <div class="form-row">
+                <label for="personname">Full Name</label>
+               <input type="text" name="fullname" placeholder="Full Name">
+            </div>
+            <div class="form-row">
+                <label for="personemail">Email</label>
+               <input type="text" name="email" placeholder="Email">
+            </div>
+            <div class="form-row">
+                <label for="personpassword">Password</label>
+               <input type="password" name="pass" placeholder="Password">
+            </div>
+           
+            <div class="form-row">
+                <label for="personstate">State</label> 
+                <select name="state" id="state">
+                    <option value="blank">-------</option>
+                    <option value="CA">California</option>
+                    <option value="Utah">Utah</option>
+                    <option value="HI">Hawaii</option>
+                </select>
+            </div>
+             <div class="form-row">
+               <input type="submit">
+            </div>
+        </form>
+
+    <h2>The form tag has an action attribute. What does it do?</h2>
+    <p>The action attribute tells the browser where to send the form 
+        information after the user clicks Submit. It usually points to 
+        page or program that processes the answers.
+    </p>
+    <h2>The form tag has a method attribute. What does it do?</h2>
+    <p>The method attribute tells the broswer how to send the form 
+        information. The two most common methods are GET and POST.
+    </p>
+    <h2>What is the difference between a POST and a GET?</h2>
+    <p>GET puts the form answers in the web addresses. POST 
+        sends the answer in the request body so they do not appear
+        in the address bar.
+    </p>
+    <h2>How do you fill in a form control with a pre-set value, and 
+        how is that different from a placeholder?
+    </h2>
+    <p>A preset value is already entered or selected. A placeholder is only a hint, 
+        it disappears when the user strats typing and is not submitted as the answer.
+    </p>
+    <h2>List all form controls that HTML5 added. Which one did you put in your form?</h2>
+    <p>email, url, search, tel, number, range, date, time, month. I use email and name on my webdesign.</p>
+    </main>
+    <footer>
+        <p>&copy; Faonelua Lose 2026</p>
+    </footer>
+</body>
+</html>
