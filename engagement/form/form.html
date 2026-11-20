@@ -13,7 +13,7 @@
         <form action="formprocessing.html" method="get">
             <div class="form-row">
                 <label for="personname">Full Name</label>
-               <input type="text" name="fullname" placeholder="Full Name">
+               <input type="text" name="full name" placeholder="Full Name">
             </div>
             <div class="form-row">
                 <label for="personemail">Email</label>
@@ -64,5 +64,8 @@
     <footer>
         <p>&copy; Faonelua Lose 2026</p>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event)) {event.preventDefault()}
+    </script>
 </body>
 </html>
